@@ -1,0 +1,82 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+
+
+/*<style type="text/css">*/
+
+body	{
+			background-color:skyblue;
+		}
+		h1	{	background-color:yellow;
+				padding-top:10px;
+				border:green 3px dashed;
+				margin: 10px;
+				width: 550px;
+		}
+		h1	{	color:#750000; 
+				font-family:arial;
+		}
+		h1	{	font-weight:900;}
+		h1	{	text-align:center;}
+		.rotateimg180 {
+						-webkit-transform:rotate(180deg);
+						-moz-transform: rotate(180deg);
+						-ms-transform: rotate(180deg);
+						-o-transform: rotate(180deg);
+						transform: rotate(180deg);
+		}
+p	{
+				margin:10px;
+		}
+		a:link	{
+					coler: red;
+					text-decoration: none;
+		}
+		a:visited{
+					color:green;
+		}
+		a:hover	{
+					background-color: none;
+					text-decoration: underline;
+					font-weight: bold;
+					color: red;
+		}
+		a:active	{
+						background-color:orange;
+		}
+		table	{
+					border:blue 2px solid;
+		}
+tr		{
+					background-color: grey;
+		}
+		div		{
+					position:absolute;
+					top: 40px;
+					left: 35px;
+		}
+	/*</style>*/
+	/* Style the header */
+.header {
+  padding: 10px 16px;
+  background: #555;
+  color: #f1f1f1;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 102px;
+}
